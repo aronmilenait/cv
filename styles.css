@@ -1,0 +1,73 @@
+body {
+    padding: 100px;
+}
+
+.about-p, .contact-p {
+    font-family: DM Sans;
+    font-size: 20px;
+
+}
+
+#name {
+    font-family: Oswald;
+    font-size: 60px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+#subtitle {
+    font-family: Oswald;
+    font-size: 45px;
+    margin-top: 10px;
+    text-align: center;
+
+}
+
+.section-title {
+    font-size: 35px;
+    font-family: Oswald;
+}
+
+li {
+    font-family: DM Sans, 'Lucida Sans';
+    font-size: 20px;
+}
+
+.courses-grid, .education-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columnas iguales */
+    gap: 20px; /* Espacio entre las celdas */
+  }
+  
+  .course, .education {
+    background-color: #c0cfb2;
+    padding: 20px;
+  }
+  
+  .course-title, .ed-degree {
+    font-weight: bold;
+    font-family: DM Sans, 'Lucida Sans';
+    text-transform: uppercase;
+    font-size: 25px;
+    text-align: center;
+  }
+  
+  .course-date, .ed-date, .ed-institution, .course-instructor, .ed-year {
+    font-family: DM Sans, 'Lucida Sans';
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .portfolio-div {
+    padding: 100px;
+  }
+
+  #portfolio-a {
+    font-family: DM Sans, 'Lucida Sans';
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    color: #295f34;
+    padding: 30px;
+    box-shadow: 4px 4px 4px 4px #000;
+  }
